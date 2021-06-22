@@ -1,0 +1,129 @@
+body
+{
+    margin-top: 0em;
+    margin-left: 2em;
+}
+
+
+h1
+{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1.5em; 
+    margin-bottom: 0.5%;
+    padding-bottom: 0%;
+}
+
+p
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#image_logo
+{
+    padding-top: 1em;
+}
+
+.champ_de_recherche
+{
+    width: 370px;
+    height: 35px;
+    border: 1px #F2F2F2 solid;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Elements à l'intérieur du champ de recherche*/
+#icon
+{
+    background-color: #F2F2F2;
+    width: 40px;
+    height: 100%;
+    border-radius: 12px 0px 0px 12px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input_formulaire
+{
+    border: none;
+    font-weight: bold;
+    height: 35px;
+    width: 200px;
+}
+
+#input_formulaire::placeholder
+{
+    border: none;
+    color: black;
+    font-size: 1.1em;
+    font-family:'Raleway', sans-serif;
+}
+
+#bouton_rechercher
+{
+    border: none;
+    border-radius: 0px 12px 12px 0px;
+    height: 35px;
+    width: 125px;
+
+    background-color:#0065FC;
+    color: white;
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 0.82em;
+}
+
+
+/*Elements de navigation, liste à puce*/
+.navigation
+{
+    width: 25em;
+    list-style-type: none;
+    font-family:'Raleway', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin-top: 0px;
+    padding-top: 0em;
+}
+
+
+ul li a
+{
+    color: black;
+    font-size: 0.9em;
+    text-decoration: none;
+    /*Définir les liens en block pour leur mettre une bordure et gérer leur taille*/
+    display: block;
+    padding-top: 3em;
+    
+}
+
+ul li a:active
+{
+    color:#0065FC;
+    font-weight: bold;
+    border-top: 3px #0065FC solid;
+}
+
+#inscription
+{
+    color:#0065FC;
+    font-weight: bold;
+}
+
+
+/* Positionnement de l'en-tête*/
+.en-tete
+{
+    display: flex;
+    justify-content: space-between;
+}
