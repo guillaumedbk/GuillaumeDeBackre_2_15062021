@@ -64,6 +64,11 @@ p
     width: 200px;
 }
 
+#input_formulaire:focus
+{
+    outline:none;
+}
+
 #input_formulaire::placeholder
 {
     border: none;
@@ -146,7 +151,7 @@ ul li a:active
 
 #titre_filtre
 {
-    margin-right: 2em;
+    margin-right: 0em;
 }
 
 
@@ -160,11 +165,23 @@ ul li a:active
     border:2px #F2F2F2 solid;
     border-radius: 10em;
 
-    width: 9.5em;
+    width: auto;
     height: 2.5em;
+
+    margin-left: 1.5em;
 }
 
-#fond_drapeau
+.titre_par_filtre
+{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family:'Raleway', sans-serif;
+    font-size: 0.9em;
+}
+
+
+/*Première bulle*/
+.fond_drapeau
 {
     width: 2.5em;
     height: 2.5em;
@@ -176,22 +193,42 @@ ul li a:active
     justify-content: center;
     align-items: center;
 }
-
-#symboles_drapeau
+ 
+.symboles_bulle
 {
     color: #0065FC;
 }
 
-.titre_par_filtre
-{
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    font-family:'Raleway', sans-serif;
-    font-size: 0.9em;
-}
 
-/*Espace entre les sections*/
+
+/*Section 1: filtres*/
 #section_filtre
 {
     margin-top: 1.5em;
+}
+
+/*Info et texte sous les filtres*/
+#conteneur_info_texte
+{
+    display: flex;
+    align-items: baseline;
+
+    margin-top: 1.5em;
+    
+}
+
+#info_bulle
+{
+    color:#0065FC;
+    border: 1px #DEEBFF solid;
+    border-radius: 100%;
+
+    width: 1.5em;
+    height: 1.5em;
+
+    margin-right: 1em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
