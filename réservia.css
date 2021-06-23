@@ -13,6 +13,12 @@ h1
     padding-bottom: 0%;
 }
 
+h2
+{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1.2em; 
+}
+
 p
 {
     font-family: 'Raleway', sans-serif;
@@ -126,4 +132,66 @@ ul li a:active
 {
     display: flex;
     justify-content: space-between;
+}
+
+/*Positionnement des filtres*/
+.filtres
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+#titre_filtre
+{
+    margin-right: 2em;
+}
+
+
+.bulles_filtres
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    border:2px #F2F2F2 solid;
+    border-radius: 10em;
+
+    width: 9.5em;
+    height: 2.5em;
+}
+
+#fond_drapeau
+{
+    width: 2.5em;
+    height: 2.5em;
+    border: 1px #DEEBFF solid;
+    border-radius: 100%;
+    background-color: #DEEBFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#symboles_drapeau
+{
+    color: #0065FC;
+}
+
+.titre_par_filtre
+{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family:'Raleway', sans-serif;
+    font-size: 0.9em;
+}
+
+/*Espace entre les sections*/
+#section_filtre
+{
+    margin-top: 1.5em;
 }
