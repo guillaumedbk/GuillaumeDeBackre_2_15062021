@@ -1,7 +1,8 @@
 body
 {
     margin-top: 0em;
-    margin-left: 2em;
+    margin-left: 7em;
+    margin-right: 7em;
 }
 
 
@@ -17,6 +18,13 @@ h2
 {
     font-family: 'Raleway', sans-serif; 
     font-size: 1.2em; 
+}
+
+h3
+{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 0.9em; 
+    font-weight: bold;
 }
 
 p
@@ -214,6 +222,7 @@ ul li a:active
     align-items: baseline;
 
     margin-top: 1.5em;
+    margin-bottom: 1em;
     
 }
 
@@ -231,4 +240,196 @@ ul li a:active
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*Section 2 hébergements à Marseille
+
+Mise en formes des figures*/
+#section_2_hebergements
+{
+    background-color:#F2F2F2;
+    border-radius: 15px;
+    width: 61.9em;
+
+}
+
+#conteneur_figures
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.figure
+{
+    background-color: white;
+    max-width: 15em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-top:0.3em ;
+    padding-bottom: 0.7em;
+
+    border-radius: 25px;
+
+}
+
+img
+{
+    width: 15em;
+    border-radius: 25px;
+}
+
+.image_hebergements
+{
+    height: 8.2em;
+}
+
+.mes_images
+{
+    height: 10em;
+}
+
+.texte_figures
+{
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+.titres_figures_herbergements
+{
+    margin-top: 0.7em;
+    margin-bottom: 0.5em;
+}
+
+em
+{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+}
+
+.etoiles_bleu
+{
+    color: #0065FC;
+
+}
+
+.etoiles_grises
+{
+    color: rgba(201, 201, 201, 0.877);
+}
+
+.figcaption_hebergements
+{
+    margin-top: 0em;
+    background-color: white;
+    padding-left: 0.3em;
+}
+
+.figure
+{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.titre_avec_margin
+{
+    padding-top: 1em;
+    padding-left: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+#afficher_plus
+{
+    font-weight: bold;
+    font-size: 1em;
+    padding-left: 2.5em;
+    padding-top: 0.5em;
+}
+
+/*Aside Les plus populaires*/
+#aside
+{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+
+    
+}
+
+#conteneur_h2_i
+{
+    display: flex;
+    
+}
+
+#charts_icon
+{
+  padding-left: 10em;
+  padding-top: 2em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0em;
+ 
+
+ 
+}
+.figure2
+{
+    display: flex;
+    background-color: white;
+    width: 23em;
+    height: auto;
+    border: #F2F2F2 solid;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+   
+  
+
+}
+
+.figcaption_les_populaires
+{
+  background-color: white;
+  padding-left: 0.8em;
+  padding-top: 0.5em;
+  width: 9em;
+  
+  height:9.5em;
+    
+}
+
+.etoiles_attribuees_section2
+{
+    margin-top: 3.5em;
+}
+
+.conteneur_figures2
+{
+
+
+}
+.div_image
+{
+    width: 9em;
+    height: 10em;
+}
+
+.les_images
+{
+ border-radius: 20px;
+ padding: 0.3em;
+height: 9.4em; 
+
+
+}
+
+
+/*Placer les sections*/
+main
+{
+    display: flex;
+    justify-content: space-between;
 }
