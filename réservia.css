@@ -101,19 +101,39 @@ p
 
 
 /*Elements de navigation, liste à puce*/
+/* Positionnement de l'en-tête*/
 
-.navigation
+.en_tete
 {
-    width: 25em;
-    font-family:'Raleway', sans-serif;
-
     display: flex;
-    flex-direction: row;
-    justify-content: space-around; 
-    margin-top: 0px;
-    padding-top: 0em;
+    align-items: center;
 }
 
+#bloc_logo
+{
+    width: 50%;
+}
+
+#trois_liens
+{
+    width:100%;
+    margin-right: 0px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+#bloc_deux
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#bloc_trois
+{
+    padding-left: 1em;;
+}
 
 a
 {
@@ -150,13 +170,6 @@ a:active
     padding-top: 3em;
 }
 
-
-/* Positionnement de l'en-tête*/
-.en-tete
-{
-    display: flex;
-    justify-content: space-between;
-}
 
 /*Positionnement des filtres*/
 .filtres
@@ -451,22 +464,48 @@ main
     justify-content: space-between;
 }
 
-/*dimensions des blocs pour responsive*/
-#bloc_logo
-{
- width: 50%;
-}
+
+
 
 
 /*Media queries*/
+/*.en-tete*/
+
 @media all and (max-device-width: 480px)
 {
-    #nav
-    {
-        width: 50%;
-        display: flex;
-       
-    }
- 
 
-} 
+#bloc_logo
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#bloc_trois
+{
+    flex-wrap: nowrap;
+}
+#trois_liens
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#bloc_deux
+{
+    width: 100%;
+    
+}
+#bloc_trois
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.en_tete
+{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+}
