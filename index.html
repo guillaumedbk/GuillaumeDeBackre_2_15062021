@@ -21,18 +21,31 @@
 
         <header>
            
-            <div class="en-tete">
-                <!-- Logo cliquable pour revenir à la page d'accueil-->
-                <a href="index.html"><img src="\images\logo/Reservia.svg" alt= "logo Réservia" id="image_logo"/></a>
+            <div class="en_tete">
+
                 
-                <nav>
-                    <ul class="navigation">
-                        <!-- Liens qui dirigent vers l'ancre de la page-->
-                        <li><a href="index.html#hebergement" id="hebergement">Hébergements</a></li>
-                        <li><a href="index.html#activite" id="activites">Activités</a></li>
-                        <li><a href="index.html#inscription" id="inscription">S'inscrire</a></li>
-                    </ul>
-                </nav>
+
+                    <!-- Logo cliquable pour revenir à la page d'accueil-->
+                    <div id="bloc_logo"><a href="index.html"><img src="\images\logo/Reservia.svg" alt= "logo Réservia" id="image_logo"/></a></div>
+                    
+              
+                    <nav>
+
+                        <div id="nav">
+
+                                <!-- Liens qui dirigent vers l'ancre de la page-->
+                                <div id=deux_liens>
+                                    <div id="lien_herbergement"><p><a href="index.html#hebergement" id="hebergement">Hébergements</a></p></div>
+                                    <div id="lien_activites"><p><a href="index.html#activite" id="activites">Activités</a></p></div>
+                                </div>
+
+                                <div>
+                                    <div id="lien_inscription"><p><a href="index.html#inscription" id="inscription">S'inscrire</a></p></div>
+                                </div>
+                        
+                        </div>
+                    
+                     </nav>
 
             </div>
 
@@ -62,7 +75,7 @@
 
             </div>
 
-    
+<!--Première section avec les Filtres-->
 
         <section id="section_filtre">
 
@@ -138,7 +151,9 @@
     
     <main>
 
-        <!-- Section 2 Hébergements à Marseille-->
+        
+<!-- Section 2 Hébergements à Marseille-->
+
         <section id="section_2_hebergements">
             
                                     <h2 class="titre_avec_margin">Hébergements à Marseille</h2>
@@ -310,7 +325,8 @@
                 
         </section>
 
-        <!-- Aside "Les plus populaires"-->
+<!-- Aside "Les plus populaires"-->
+
         <aside id="aside">
 
             <div id="conteneur_h2_i">
@@ -398,7 +414,6 @@
                                 <i class="fas fa-star etoiles_bleu fa-sm"></i>
                                 <i class="fas fa-star etoiles_bleu fa-sm"></i>
                                 <i class="fas fa-star etoiles_grises fa-sm "></i>
-                                
 
                             </div>
                             
@@ -406,14 +421,23 @@
                     
                 </figure>
 
-
-
             </div>
 
-
         </aside>
+
+
+<!--Article Activités à Marseille-->
+
 
      </main>   
 
     </body>
+
+    <footer>
+        
+    </footer>
+
+
+
+
 </html>

@@ -101,10 +101,10 @@ p
 
 
 /*Elements de navigation, liste à puce*/
+
 .navigation
 {
     width: 25em;
-    list-style-type: none;
     font-family:'Raleway', sans-serif;
 
     display: flex;
@@ -115,28 +115,39 @@ p
 }
 
 
-ul li a
+a
 {
     color: black;
     font-size: 0.9em;
     text-decoration: none;
     /*Définir les liens en block pour leur mettre une bordure et gérer leur taille*/
     display: block;
-    padding-top: 3em;
     
 }
 
-ul li a:active
+a:active
 {
     color:#0065FC;
     font-weight: bold;
     border-top: 3px #0065FC solid;
 }
 
+
 #inscription
 {
     color:#0065FC;
     font-weight: bold;
+    padding-top: 3em;
+}
+
+#hebergement
+{
+    padding-top: 3em;
+}
+
+#activites
+{
+    padding-top: 3em;
 }
 
 
@@ -288,6 +299,7 @@ img
 .mes_images
 {
     height: 10em;
+    object-fit: cover;
 }
 
 .texte_figures
@@ -414,15 +426,20 @@ em
 .div_image
 {
     width: 9em;
-    height: 10em;
+    height: 9.9em;
+    display: flex;
+    align-items: center;
 }
 
 .les_images
 {
- border-radius: 20px;
+ border-radius: 20px 0px 0px 20px;
  padding: 0.3em;
-height: 9.4em; 
 
+ width: 8.5em;
+ height: 10.5em;
+ object-fit:cover;
+ 
 
 }
 
@@ -433,3 +450,23 @@ main
     display: flex;
     justify-content: space-between;
 }
+
+/*dimensions des blocs pour responsive*/
+#bloc_logo
+{
+ width: 50%;
+}
+
+
+/*Media queries*/
+@media all and (max-device-width: 480px)
+{
+    #nav
+    {
+        width: 50%;
+        display: flex;
+       
+    }
+ 
+
+} 
