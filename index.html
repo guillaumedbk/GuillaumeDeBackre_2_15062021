@@ -57,10 +57,17 @@
 
             <div class="champ_de_recherche">
 
-                <div id="icon">
+                <div id="icon_pour_desktop">
                     <!-- Insertion de l'icon depuis fontawesome-->
-                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                    <i class="fas fa-map-marker-alt"></i>
                 </div>
+
+                    <div id="icon_pour_mobile">
+                    <!-- Insertion de l'icon depuis fontawesome + dimension adaptée-->
+                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                    </div>
+
+                
     
                 <div id="input_recherche">
                     <!-- Création d'un formulaire pour récupérer la saisie utilisateur-->
@@ -89,6 +96,9 @@
 
                         <h2 id="titre_filtre">Filtres</h2>
 
+                    <!--Conteneur 1-->
+                    <div id="bloc_un_filtre">
+
                         <!-- Premier filtre-->
                         <div class="bulles_filtres">
 
@@ -110,7 +120,11 @@
 
                             <h3 class="titre_par_filtre">Familial</h3>
 
-                        </div>
+                         </div>
+
+                    </div>
+
+                    <div id="conteneur_filtre_trois">
 
                         <!-- Troisième filtre-->
                         <div class="bulles_filtres">
@@ -123,6 +137,10 @@
 
                         </div>
 
+                    </div>   
+
+                    <div id="conteneur_filtre_quatre">
+
                          <!-- Quatrième filtre-->
                          <div class="bulles_filtres">
 
@@ -132,7 +150,10 @@
 
                             <h3 class="titre_par_filtre">Animaux autorisés</h3>
 
-                        </div>        
+                        </div>  
+
+                    </div>
+                       
                         
             </div>
 
