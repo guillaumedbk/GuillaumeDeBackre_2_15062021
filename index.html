@@ -31,14 +31,14 @@
 
                         <div id="bloc_deux">
                         
-                        <!-- Liens qui dirigent vers l'ancre de la page-->
-                        <p id=lien_un><a href="index.html#hebergement" id="hebergement">Hébergements</a></p>
-                        <p id=lien_deux><a href="index.html#activite" id="activites">Activités</a></p>
-                        
+                            <!-- Liens qui dirigent vers l'ancre de la page-->
+                            <div id="lien_1"><li id=lien_un><a href="index.html#hebergement" id="hebergement">Hébergements</a></li></div>
+                            <div id="lien_2"><li id=lien_deux><a href="index.html#activite" id="activites">Activités</a></li></div>
+                            
                         </div>
 
                         <div id="bloc_trois">
-                            <p id="lien_trois"><a href="index.html#inscription" id="inscription">S'inscrire</a></p>
+                            <li id="lien_trois"><a href="index.html#inscription" id="inscription">S'inscrire</a></li>
                         </div>
 
                     </div>
@@ -57,16 +57,10 @@
 
             <div class="champ_de_recherche">
 
-                <div id="icon_pour_desktop">
+                <div id="icon">
                     <!-- Insertion de l'icon depuis fontawesome-->
                     <i class="fas fa-map-marker-alt"></i>
                 </div>
-
-                    <div id="icon_pour_mobile">
-                    <!-- Insertion de l'icon depuis fontawesome + dimension adaptée-->
-                    <i class="fas fa-map-marker-alt fa-lg"></i>
-                    </div>
-
                 
     
                 <div id="input_recherche">
@@ -95,6 +89,9 @@
             <div class="filtres">
 
                         <h2 id="titre_filtre">Filtres</h2>
+                
+                <!--Bloc 1 et 2-->
+                <div id="bloc_un_et_deux">
 
                     <!--Conteneur 1-->
                     <div id="bloc_un_filtre">
@@ -110,7 +107,10 @@
 
                         </div>
 
+                    </div>
 
+                    <!--Conteneur 2-->
+                    <div id="bloc_deux_filtre">
                          <!-- Deuxième filtre-->
                          <div class="bulles_filtres">
 
@@ -124,33 +124,47 @@
 
                     </div>
 
+                </div>
+
+            
+                    <!--Conteneur 3-->
                     <div id="conteneur_filtre_trois">
 
-                        <!-- Troisième filtre-->
-                        <div class="bulles_filtres">
+                        <div id="filtre_trois">
 
-                            <div class="fond_drapeau">
-                                <i class="fas fa-heart symboles_bulle"></i>
+                            <!-- Troisième filtre-->
+                            <div class="bulles_filtres">
+
+                                <div class="fond_drapeau">
+                                    <i class="fas fa-heart symboles_bulle"></i>
+                                </div>
+
+                                <h3 class="titre_par_filtre">Romantique</h3>
+
                             </div>
-
-                            <h3 class="titre_par_filtre">Romantique</h3>
 
                         </div>
 
                     </div>   
 
+              
+                    <!--Conteneur 4-->
                     <div id="conteneur_filtre_quatre">
 
-                         <!-- Quatrième filtre-->
-                         <div class="bulles_filtres">
+                        <div id="filtre_quatre">
 
-                            <div class="fond_drapeau">
-                                <i class="fas fa-dog symboles_bulle"></i>
-                            </div>
+                            <!-- Quatrième filtre-->
+                            <div class="bulles_filtres">
 
-                            <h3 class="titre_par_filtre">Animaux autorisés</h3>
+                                <div class="fond_drapeau">
+                                    <i class="fas fa-dog symboles_bulle"></i>
+                                </div>
 
-                        </div>  
+                                <h3 class="titre_par_filtre">Animaux autorisés</h3>
+
+                            </div>  
+
+                        </div>
 
                     </div>
                        

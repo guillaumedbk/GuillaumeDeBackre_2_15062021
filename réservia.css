@@ -35,6 +35,12 @@ p
     padding-top: 0%;
 }
 
+li
+{
+    list-style-type: none;
+    font-family:'Raleway', sans-serif;
+}
+
 #image_logo
 {
     padding-top: 1em;
@@ -52,7 +58,7 @@ p
 }
 
 /* Elements à l'intérieur du champ de recherche*/
-#icon_pour_desktop
+#icon
 {
     background-color: #F2F2F2;
     width: 40px;
@@ -193,11 +199,6 @@ a:active
     display: flex;
 }
 
-#icon_pour_mobile
-{
-    display: none;
-}
-
 .bulles_filtres
 {
     display: flex;
@@ -205,7 +206,7 @@ a:active
     justify-content: flex-start;
     align-items: center;
 
-    border:2px #F2F2F2 solid;
+    border:3px #F2F2F2 solid;
     border-radius: 10em;
 
     width: auto;
@@ -442,11 +443,7 @@ em
     margin-top: 3.5em;
 }
 
-.conteneur_figures2
-{
 
-
-}
 .div_image
 {
     width: 9em;
@@ -540,9 +537,50 @@ a:active
 {
     color:#0065FC;
     font-weight: bold;
-    border-bottom: 3px #0065FC solid;
     border-top: 0px;
 }
+
+#bloc_deux
+{
+    width:100%;
+    
+}
+
+#lien_1
+{
+    width: 50%;
+    
+}
+
+#lien_un
+{
+    display: flex;
+    justify-content: center; 
+}
+
+#lien_deux
+{
+    display: flex;
+    justify-content: center; 
+}
+#lien_2
+{
+    width: 50%;
+}
+
+#lien_1:active
+{
+    width: 50%;
+    border-bottom: 3px #0065FC solid;
+    
+}
+
+#lien_2:active
+{
+    width: 50%;
+    border-bottom: 3px #0065FC solid;
+}
+
 
 h1
 {
@@ -565,6 +603,7 @@ h2
 {
     margin-top: 0em;
 }
+
 .champ_de_recherche
 {
     width: 100%;
@@ -576,7 +615,7 @@ h2
 
 #icon
 {
-    width: 6rem;
+    width: 4rem;
     height: 3rem;
 }
 
@@ -595,11 +634,11 @@ h2
 #recherche_mobile
 {
     display: flex;
-    padding-left: 5rem;
+    justify-content: center;
     width: 3rem;
     height: 3rem;
     background-color:#0065FC ;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 10px 10px 10px;
 
 }
 
@@ -607,34 +646,27 @@ button
 {
     background-color: #0065FC;
     border: none;
+    border-radius: 10px;
     color: white;
+    
     display: flex;
     align-items: center;
   
+    
+  
 }
 /* Adaptation des filtres*/
-#icon_pour_desktop
+#icon
 {
-    display: none;
+    font-size: 1.4rem;
 }
-#icon_pour_mobile
-{
-    background-color: #F2F2F2;
-    width: 60px;
-    height: 100%;
-    border-radius: 10px 0px 0px 10px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .filtres
 {
     display: flex;
+    
     flex-direction: row;
     flex-wrap: wrap;
-    flex-grow: 1;
- 
    
 }
 #titre_filtre
@@ -642,30 +674,41 @@ button
     width: 100%;
     
 }
-#bloc_un_filtre
+
+#bloc_un_et_deux
 {
     display: flex;
     width: 100%;
-  
+    
 }
+
+#bloc_deux_filtre
+{
+    margin-left: 1em;
+}
+
 #conteneur_filtre_trois
 {
     display: flex;
-    width: 50%;
+    width: 100%;
     margin-top: 1em;
     margin-bottom: 1em;
 
 }
 
+
 #conteneur_filtre_quatre
 {
-    width: 60%;
+    width: auto ;
 }
 /*Ajuster la taille des bulles*/
 .bulles_filtres
 {
     height: 4em;
+    width: auto;
     flex-grow: 2;
+    margin-left: 0em;
+  
 }
 .fond_drapeau
 {
@@ -677,4 +720,10 @@ button
 {
     font-size: 1.3rem;
 }
+
+#conteneur_info_texte
+{
+    margin-top: 3em;
+}
+
 }
