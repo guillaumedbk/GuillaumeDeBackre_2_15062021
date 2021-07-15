@@ -223,6 +223,11 @@ a:active
     font-size: 0.9em;
 }
 
+#bloc_un_et_deux
+{
+    display: flex;
+}
+
 
 /*Première bulle*/
 .fond_drapeau
@@ -390,9 +395,7 @@ em
 #aside
 {
     background-color: #F2F2F2;
-    border-radius: 15px;
-
-    
+    border-radius: 15px;    
 }
 
 #conteneur_h2_i
@@ -423,8 +426,6 @@ em
     display: flex;
     align-items: center;
    
-  
-
 }
 
 .figcaption_les_populaires
@@ -484,6 +485,16 @@ main
 
 @media all and (max-device-width: 480px)
 {
+body
+{
+    margin: 0em;
+}
+
+header
+{
+    margin:1em 2em 1em 3em;
+}
+
 
 #trois_liens_et_logo
 {
@@ -532,7 +543,10 @@ main
     width: 40%;
 
 }
-
+li
+{
+    font-size: 1.5rem;
+}
 a:active
 {
     color:#0065FC;
@@ -549,7 +563,7 @@ a:active
 #lien_1
 {
     width: 50%;
-    
+    padding-bottom: 1em;
 }
 
 #lien_un
@@ -566,6 +580,7 @@ a:active
 #lien_2
 {
     width: 50%;
+    padding-bottom: 1em;
 }
 
 #lien_1:active
@@ -726,4 +741,83 @@ button
     margin-top: 3em;
 }
 
+/*Section les plus populaire*/
+#hebergement_et_aside
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+}
+
+#conteneur_h2_i
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#charts_icon
+{
+    margin-right: 1.5em;
+    font-size: 1.8em;
+    
+}
+#bloc_aside
+{
+    width:100%;
+}
+#aside
+{
+    border-radius: 0px;
+}
+.titre_avec_margin
+{
+    font-size:2rem;
+}
+.conteneur_figures2
+{
+    padding: 0em 5em 2em 0em;
+    margin-bottom: 1em;
+    
+}
+.figure2
+{
+    width: 100%;
+    height: 15em;
+    display: flex;
+    border-radius: 15px;
+    
+    
+}
+.div_image
+{
+    height: 16em;
+    width:16em;
+}
+.les_images
+{
+    height: 100%;
+    width:100%;
+}
+.figcaption_les_populaires
+{
+    width: 100%;
+    margin-left: 1.5rem;
+    align-self: flex-start;
+    border-radius: 15px;
+   
+}
+.titres_figures_herbergements
+{
+    font-size: 1.5rem;
+}
+.texte_figures
+{
+    font-size: 1.5rem;
+}
+.etoiles_attribuees_section2
+{
+    font-size: 1.5rem;
+    margin-top: 3.8em;
+}
 }
