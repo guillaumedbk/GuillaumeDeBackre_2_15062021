@@ -317,19 +317,20 @@ Mise en formes des figures*/
 
 img
 {
+    height: 9em;
     width: 15em;
-    border-radius: 25px;
-}
-
-.image_hebergements
-{
-    height: 8.2em;
+    border-radius: 25px 25px 0px 0px;
 }
 
 .mes_images
 {
-    height: 10em;
+    
     object-fit: cover;
+}
+
+.lien
+{
+    height: 8.5em;
 }
 
 .texte_figures
@@ -366,14 +367,18 @@ em
     margin-top: 0em;
     background-color: white;
     padding-left: 0.3em;
+    padding-top: 0.2em;
+
+    border-radius: 0px 0px 25px 25px;
+    height: 5.5em;
+
 }
 
 .figure
 {
     display: flex;
     flex-direction: column;
-   
-    
+
 }
 
 .titre_avec_margin
