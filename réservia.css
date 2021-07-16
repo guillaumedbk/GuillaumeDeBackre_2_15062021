@@ -485,14 +485,24 @@ main
 
 @media all and (max-device-width: 480px)
 {
+html
+{
+    min-width: 70em;
+    width: 100%;
+    height:100%;
+    
+}
 body
 {
     margin: 0em;
+    padding: 0em;
 }
 
 header
 {
-    margin:1em 2em 1em 3em;
+    width:100%;
+   
+    margin: 0em 5em 0em;
 }
 
 
@@ -711,7 +721,6 @@ button
 
 }
 
-
 #conteneur_filtre_quatre
 {
     width: auto ;
@@ -747,6 +756,7 @@ button
     display: flex;
     flex-wrap: wrap-reverse;
     width: 100%;
+   
 }
 
 #conteneur_h2_i
@@ -764,10 +774,13 @@ button
 }
 #bloc_aside
 {
-    width:100%;
+    display:flex;
+    justify-content: center;
+    width:80em;
 }
 #aside
 {
+    width: 80em;
     border-radius: 0px;
 }
 .titre_avec_margin
@@ -779,6 +792,7 @@ button
     padding: 0em 5em 2em 0em;
     margin-bottom: 1em;
     
+    
 }
 .figure2
 {
@@ -786,8 +800,7 @@ button
     height: 15em;
     display: flex;
     border-radius: 15px;
-    
-    
+
 }
 .div_image
 {
@@ -819,5 +832,40 @@ button
 {
     font-size: 1.5rem;
     margin-top: 3.8em;
+}
+/*Section hébergements à Marseille*/
+#section_2_hebergements
+{
+    background-color: white;
+}
+.figure
+{
+    width: fit-content;
+    height: auto;
+    border: grey 3px solid;
+}
+.figure_bloc
+{
+   width: 100%;
+   
+    
+}
+.image_hebergements
+{
+    width:100%;
+    
+}
+.mes_images
+{
+    width: 60em;
+}
+.figcaption_hebergements
+{
+   background-color: white;
+   width:60em;
+}
+.lien
+{
+    width:60em;
 }
 }
