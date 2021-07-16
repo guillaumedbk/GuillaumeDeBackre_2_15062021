@@ -768,7 +768,7 @@ button
 #charts_icon
 {
     margin-right: 1.5em;
-    font-size: 1.8em;
+    font-size: 2.5em;
     
 }
 #bloc_aside
@@ -798,24 +798,26 @@ button
 .figure2
 {
     width: 100%;
-    height: 15em;
+    height: 20em;
     display: flex;
-    border-radius: 15px;
+    border-radius: 25px;
 
 }
 .div_image
 {
-    height: 16em;
-    width:16em;
+    height: 20em;
+    width:30em;
 }
 .les_images
 {
     height: 100%;
-    width:100%;
+    width:28em;
+    object-fit: cover;
 }
 .figcaption_les_populaires
 {
     width: 100%;
+    
     margin-left: 1.5rem;
     align-self: flex-start;
     border-radius: 15px;
@@ -827,7 +829,7 @@ button
 }
 .texte_figures
 {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
 }
 .etoiles_attribuees_section2
 {
@@ -865,7 +867,6 @@ button
 .image_hebergements
 {
     width:100%;
-    height: 9em;
     
 }
 .mes_images
