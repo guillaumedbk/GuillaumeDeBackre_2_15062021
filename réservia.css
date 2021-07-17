@@ -1,8 +1,8 @@
 body
 {
     margin-top: 0em;
-    margin-left: 7em;
-    margin-right: 7em;
+    margin-left: 12em;
+    margin-right: 12em;
 }
 
 
@@ -43,8 +43,10 @@ li
 
 #image_logo
 {
-    padding-top: 1em;
+    padding-top: 0em;
+    width: 8em;
 }
+
 
 .champ_de_recherche
 {
@@ -128,6 +130,7 @@ li
 
     display: flex;
     justify-content: flex-end;
+   
 }
 
 #bloc_deux
@@ -540,6 +543,7 @@ article
 {
     border: #F2F2F2 4px solid;
     border-radius: 30px;
+    margin: 0em;
 }
 .titres_figures_herbergements
 {
@@ -556,6 +560,8 @@ footer
 
     position:absolute;
     left: 0em;
+
+    margin-top: 2em;
 }
 #footer
 {
