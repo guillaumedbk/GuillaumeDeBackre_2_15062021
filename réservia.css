@@ -118,7 +118,7 @@ li
 
 #bloc_logo
 {
-    width: 50%;
+    width: 75%;
 }
 
 #trois_liens_et_logo
@@ -132,7 +132,7 @@ li
 
 #bloc_deux
 {
-    width: 50%;
+    width: 25%;
     display: flex;
     justify-content: space-around;
 }
@@ -407,7 +407,8 @@ em
 #aside
 {
     background-color: #F2F2F2;
-    border-radius: 15px;    
+    border-radius: 15px;  
+    padding-bottom: 1.5em;  
 
 }
 
