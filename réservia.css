@@ -494,6 +494,7 @@ article
     display:flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 1.2em;
 }
 #activites
 {
@@ -518,13 +519,13 @@ article
 }
 .img_fig_intermediaire
 {
-    height: 10em;
+    height: 10.5em;
     width: 19em;
     object-fit: cover;
 }
 .img_fig_petite
 {
-    height: 5em;
+    height: 7em;
     width: 19em;
     object-fit: cover;
 }
@@ -582,6 +583,14 @@ footer
 #liste_footer
 {
     padding-left: 0em;
+    font-size: 0.8em;
+}
+footer ul 
+{
+    padding-left: 0em;
+}
+footer ul li
+{
     font-size: 0.8em;
 }
 
@@ -844,6 +853,10 @@ button
 {
     width: auto ;
 }
+#info_bulle
+{
+    font-size: 1.5em;
+}
 /*Ajuster la taille des bulles*/
 .bulles_filtres
 {
@@ -948,10 +961,12 @@ button
     align-self: flex-start;
     border-radius: 15px;
    
+   
 }
 .titres_figures_herbergements
 {
     font-size: 1.5rem;
+    padding-left: 0em;
 }
 .texte_figures
 {
@@ -961,6 +976,7 @@ button
 {
     font-size: 1.5rem;
     margin-top: 3.8em;
+    margin-left: 0.5em;
 }
 /*Section hébergements à Marseille*/
 #conteneur_figures
@@ -1029,10 +1045,12 @@ button
 .texte_figures
 {
     font-size: 2.2em;
+    padding-left: 0.5em;
 }
 .etoiles_attribuees
 {
     font-size:1.5em;
+    padding-left: 0.5em;
 }
 #afficher_plus
 {
@@ -1040,6 +1058,10 @@ button
     padding-left: 1em;
 }
 /*Activités à Marseille*/
+article 
+{
+    width: 79.8em;
+}
 #activites_marseille
 {
     font-size: 3rem;
@@ -1051,12 +1073,12 @@ button
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     
-    margin-left: 2em;
 }
 .figures_activites
 {
-    width: 100%;
+    width: 75em;
     display: flex;
     flex-direction: column;
     
@@ -1080,7 +1102,7 @@ button
 .titres_figures_herbergements
 {
     font-size: 2em;
-    padding-left: 1em;
+    padding-left: 0.5em;
     padding-bottom: 0.4em;
 }
 /*Footer*/
@@ -1107,5 +1129,191 @@ footer
 footer ul li 
 {
     font-size: 1.8em;
+}
+}
+
+/*Media queries*/
+/*Tablette*/
+
+@media all and (min-device-width: 768px)and (max-device-width : 1024px){
+
+body 
+{
+    width:75em;
+}
+/*En-tête*/
+h1
+{
+    font-size: 4rem;
+}
+#image_logo
+{
+    font-size: 2em;
+}
+.lien_nav
+{
+    font-size: 2em;
+}
+#bloc_deux
+{
+    width:50%;
+    padding-top: 2em;
+}
+#bloc_trois
+{
+    padding-top: 2em;
+}
+p
+{
+    font-size: 2em;
+}
+/*Barre de recherche*/
+.champ_de_recherche
+{
+    width:100%;
+    height: 4em;
+}
+#icon
+{
+    width: 5em;
+}
+#maps
+{
+    font-size:1.5em;
+}
+#input_formulaire
+{
+    font-size:1.5em;
+    width:100%;
+}
+#bouton_rechercher
+{
+    height: 4em;
+    font-size: 1em;
+}
+/*Filtre*/
+h2
+{
+    font-size: 1.8em;
+}
+#section_filtre
+{
+    margin-top: 4em;
+}
+.bulles_filtres
+{
+    height: 5em;
+}
+.fond_drapeau
+{
+    width:5em;
+    height: 5em;
+}
+.titre_par_filtre
+{
+    font-size: 1.3em;
+}
+#info_bulle
+{
+    font-size: 1.5em;
+}
+/*Les plus populaire*/
+#conteneur_h2_i
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#charts_icon
+{
+    font-size: 2em;
+    margin-right: 0.5em;
+}
+.figure2
+{
+    height:25em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.div_image
+{
+    width:20em;
+    padding:2em;
+}
+.les_images
+{
+    height:100%;
+    width:100%;
+    border-radius: 25px;
+    padding:1em;
+}
+.figcaption_les_populaires
+{
+    width:auto;
+    padding:2em;
+}
+
+#aside
+{
+    width:88%;
+    margin-bottom: 2em;
+    
+}
+#hebergement_et_aside
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+   
+}
+.conteneur_figures2
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.figure_hebergements
+{
+    width: 30em;
+   height: 20em;
+   margin-bottom: 3em;
+}
+.figcaption_hebergements
+{
+    height: 8em;
+}
+.titres_figures_herbergements
+{
+    font-size: 1.5em;
+}
+.texte_figures
+{
+    font-size: 1em;
+    margin-left: 1em;
+}
+.etoiles_attribuees
+{
+    margin-left: 1em;
+}
+.lien
+{
+    width: 100%;
+    height: 15em;
+}
+.mes_images
+{
+    width: 100%;
+    height: 15em;
+}
+#conteneur_figures
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#section_2_hebergements
+{
+    width:100%;
 }
 }
