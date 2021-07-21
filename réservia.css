@@ -227,6 +227,10 @@ a:active
     font-family:'Raleway', sans-serif;
     font-size: 0.9em;
 }
+.bulles_filtres:hover
+{
+    background-color: #82aae6;
+}
 
 #bloc_un_et_deux
 {
@@ -1404,21 +1408,21 @@ footer ul li
 }
 }
 /*Ultra-width*/
-@media all and (min-width : 1824px){
+@media screen and (min-width : 2000px){
 
-body
-{
-    margin-right: 30em;
-    margin-left: 30em;
-}
-footer 
-{
-    display: flex;
-    justify-content: center;
-}
-#footer
-{
-    width: 50%;
-    margin-left:0em;
-}
-}
+    body
+    {
+        margin-right: 30em;
+        margin-left: 30em;
+    }
+    footer 
+    {
+        display: flex;
+        justify-content: center;
+    }
+    #footer
+    {
+        width: 50%;
+        margin-left:0em;
+    }
+    }
