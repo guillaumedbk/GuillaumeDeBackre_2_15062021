@@ -40,6 +40,10 @@ li
     list-style-type: none;
     font-family:'Raleway', sans-serif;
 }
+header nav ul
+{
+    padding-left: 0em;
+}
 
 #image_logo
 {
@@ -352,6 +356,7 @@ img
 {
     margin-top: 0.7em;
     margin-bottom: 0.5em;
+ 
 }
 
 em
@@ -552,7 +557,7 @@ article
     border-radius: 30px;
     margin: 0em;
 }
-.titres_figures_herbergements
+.titres_figures_activites
 {
     padding-left: 1em;
     font-size: 0.8rem;
