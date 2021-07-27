@@ -122,10 +122,12 @@ header nav ul
     align-items: center;
 }
 
+
 #bloc_logo
 {
     width: 75%;
 }
+
 
 #trois_liens_et_logo
 {
@@ -134,8 +136,8 @@ header nav ul
 
     display: flex;
     justify-content: flex-end;
-   
 }
+
 
 #bloc_deux
 {
@@ -606,7 +608,7 @@ footer ul li
 /*Media queries*/
 /*.en-tete*/
 
-@media all and (max-device-width: 480px)
+@media all and (max-device-width: 767px)
 {
 html
 {
@@ -1170,7 +1172,7 @@ h1
 }
 #bloc_trois
 {
-    padding-top: 2em;
+    padding-top: 1em;
 }
 p
 {
@@ -1412,8 +1414,109 @@ footer ul li
     font-size: 1.5em;
 }
 }
+/*laptop L*/
+@media all and (min-device-width: 1025px)and (max-device-width : 1830px){
+body 
+{
+    width:75em;
+}
+#hebergement_et_aside{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+/*Les plus populaire*/
+#conteneur_h2_i
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#charts_icon
+{
+    font-size: 2em;
+    margin-right: 0.5em;
+}
+.figure2
+{
+    height:25em;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div_image
+{
+    width:20em;
+    padding:2em;
+}
+.les_images
+{
+    height:100%;
+    width:100%;
+    border-radius: 25px;
+    padding:1em;
+}
+.figcaption_les_populaires
+{
+    width:auto;
+    background-color: #F2F2F2;
+}
+.etoiles_attribuees_section2
+{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+#aside
+{
+    width:88%;
+    margin-bottom: 2em;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+#bloc_aside
+{
+    margin-left: 12em;
+  
+}
+#hebergement_et_aside
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.conteneur_figures2
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+#conteneur_figures
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+}
+/*desktop*/
+@media screen and (min-width : 1831px) and (max-width : 2000px){
+    body
+    {
+        margin-right: 10em;
+        margin-left: 10em;
+    }
+}
+@media screen and (min-width : 2001px) and (max-width : 2409px){
+    body
+    {
+        margin-right: 17em;
+        margin-left: 17em;
+    }
+}
 /*Ultra-width*/
-@media screen and (min-width : 2000px){
+@media screen and (min-width : 2410px){
 
     body
     {
