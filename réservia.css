@@ -12,6 +12,7 @@ h1
     font-size: 1.5em; 
     margin-bottom: 0.5%;
     padding-bottom: 0%;
+    width:100%;
 }
 
 h2
@@ -33,6 +34,7 @@ p
     font-size: 1em;
     margin-top: 0%;
     padding-top: 0%;
+    width:100%;
 }
 
 li
@@ -115,29 +117,38 @@ header nav ul
 
 /*Elements de navigation, liste à puce*/
 /* Positionnement de l'en-tête*/
-
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+}
 .en_tete
 {
     display: flex;
     align-items: center;
 }
-
-
 #bloc_logo
 {
-    width: 75%;
+    width: 50%;
 }
-
-
-#trois_liens_et_logo
+#nav
 {
     width:100%;
+    display: flex;
+   
+}
+#liste_ul
+{
+    width:50%;
     margin-right: 0px;
-
     display: flex;
     justify-content: flex-end;
 }
-
+.lien_nav
+{
+    display: inline;
+    padding-left: 1em;
+}
 
 #bloc_deux
 {
@@ -146,10 +157,6 @@ header nav ul
     justify-content: space-around;
 }
 
-#bloc_trois
-{
-    padding-left: 1em;;
-}
 
 a
 {
@@ -269,6 +276,7 @@ a:active
 #section_filtre
 {
     margin-top: 1.5em;
+    width:100%;
 }
 
 /*Info et texte sous les filtres*/
@@ -621,18 +629,17 @@ body
 {
     margin: 0em;
     padding: 0em;
-   
 }
 
 header
 {
     width:100%;
-   
     margin: 0em 5em 0em;
+    
 }
 
 
-#trois_liens_et_logo
+#nav
 {
     width: 100%;
     display: flex;
@@ -640,43 +647,61 @@ header
     align-items: center;
     justify-content: space-between;
 }
-
-#bloc_logo:nth-child(1)
+#image_logo
 {
-    order: 1;
+    font-size: 2em;
 }
-#bloc_deux:nth-child(2)
+#bloc_logo
+{
+    height: 10em;
+}
+
+#lien_1:nth-child(1)
+{
+    order: 2;
+    width:50%;
+    padding:0;
+    margin:0;
+}
+#lien_2:nth-child(2)
 {
     order: 3;
+    width:50%;
+    padding:0;
+    margin:0;
 }
 #bloc_trois:nth-child(3)
 {
-    order: 2;
+    order: 1;
+    margin-top: -100px;
 }
-    
 
-
-#bloc_deux
+#liste_ul
 {
     width: 100%;
-  
+    display: flex;
+    flex-wrap: wrap;
 }
+.ul_un_et_deux
+{
+    width: 100%;
+    display: flex;
+    
+}
+
 #bloc_trois
 {
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    
-   
+    width: 100%;
+   display: flex;
+   justify-content: flex-end;
 }
 
 #bloc_logo
 {
     display: flex;
-
     flex-wrap: nowrap;
     align-self: flex-start;
-    width: 40%;
+    width: 50%;
 
 }
 li
@@ -690,24 +715,26 @@ a:active
     border-top: 0px;
 }
 
-#bloc_deux
-{
-    width:100%;
-}
-
 #lien_1
 {
     width: 50%;
     padding-bottom: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+#lien_2
+{
+    width: 50%;
+    padding-bottom: 1em;
+  
 }
 
 .lien_nav
 {
-   
-    display: flex;
-    justify-content: center; 
     font-size: 2.4em;
 }
+
 #inscription
 {
     padding-top: 2em;
@@ -715,11 +742,6 @@ a:active
 #bloc_logo
 {
     padding-top: 2em;
-}
-#lien_2
-{
-    width: 50%;
-    padding-bottom: 1em;
 }
 
 #lien_1:active
@@ -1116,6 +1138,10 @@ article
     padding-left: 0.5em;
     padding-bottom: 0.4em;
 }
+.titres_figures_activites
+{
+    font-size:2em;
+}
 /*Footer*/
 footer 
 {
@@ -1172,7 +1198,7 @@ h1
 }
 #bloc_trois
 {
-    padding-top: 1em;
+    padding-top: 0em;
 }
 p
 {
